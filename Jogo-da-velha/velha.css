@@ -1,0 +1,128 @@
+#principal{
+    background-color: black;
+    display: flex;
+    margin-left: 300px;
+    width: 604px;
+    height: 604px;
+    overflow:auto;
+    flex-direction:row ;
+    flex-wrap: wrap;
+    position: absolute;
+}
+#quadrado-1 {
+    background-color: white;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    width:200px;
+    height: 200px;
+    font-size: 170px;
+ }
+ .quadrado{
+    background-color:white;
+    border:none;
+    width:198px;
+    height: 198px;
+    margin: 0;
+    padding:0;
+    cursor:pointer;
+    font-size: 170px;
+ }
+ .quadrado:hover{
+    background-color:rgb(230, 225, 225);
+ }
+    #quadrado-1:hover{
+    background-color:rgb(230, 225, 225);
+ }
+#quadrado-2{
+    background-color:white;
+    width:200px;
+    height: 200px;
+}
+#quadrado-2:hover{
+    background-color:rgb(230, 225, 225);
+}
+#quadrado-3{
+    background-color:white;
+    border-left:2px solid black;
+    width:200px;
+    height: 200px;
+}
+#quadrado-3:hover{
+    background-color:rgb(230, 225, 225);
+} 
+#quadrado-4{
+    background-color:white;
+    border-right: 2px solid black;
+    width:200px;
+    height: 200px;
+}
+#quadrado-4:hover{
+    background-color:rgb(230, 225, 225);
+}
+#quadrado-5{
+    background-color:white;
+    width:200px;
+    height: 200px;
+}
+#quadrado-5:hover{
+    background-color:rgb(230, 225, 225);
+}
+#quadrado-6{
+    background-color:white;
+    border-left: 2px solid black;
+    border-bottom:2px solid black;
+    width:200px;
+    height: 200px;
+}
+#quadrado-6:hover{
+    background-color:rgb(230, 225, 225);
+}
+#quadrado-7{
+    background-color:white;
+    width:200px;
+    height: 200px;
+    border-right: 2px solid black;
+}
+#quadrado-7:hover{
+    background-color:rgb(230, 225, 225);
+}
+#quadrado-8{
+    background-color:white;
+    border-right: 2px solid black;
+    width:200px;
+    height: 200px;
+}   
+#quadrado-8:hover{
+    background-color:rgb(230, 225, 225);
+}
+#quadrado-9{
+    background-color:white;
+     width:200px;
+    height: 200px;
+}
+#quadrado-9:hover{
+    background-color:rgb(230, 225, 225);
+}
+.reset{
+    display:block;
+    float: right;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.reset_play {
+    border: 2px solid black;
+    border-radius: 20%;
+    width:100px ;
+    height:100px;
+    margin: 0;
+    padding:0 ;
+    background-color:white;
+    text-transform: uppercase;
+    font-weight:bold;
+    cursor:pointer;
+   
+}
+.reset_play:hover {
+    background-color:rgba(255, 255, 255, 0.836);
+    
+}
